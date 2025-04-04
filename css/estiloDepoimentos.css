@@ -1,0 +1,217 @@
+.titulo{
+    background-image: url("../img/depoimento/fundo_banner.png");
+    overflow-x: hidden;
+}
+
+.titulo div{
+    padding: 40px;
+}
+
+.texto_titulo h1{
+    font-size: 70px;
+    color: white;
+}
+
+
+.depoimentoCard{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    width: 50%;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+
+.container_carrosel{
+    background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgba(218,145,82,1) 50%, rgba(255,162,85,1) 100%);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.depoimentoCard img{
+    width: 150px;
+    height: 150px;
+}
+
+.depoimentoCard i{
+    font-size: 80px;
+}
+
+
+.depoimentoCard h5{
+    font-size: 50px;
+}
+
+
+.aspa_fim{
+    display: flex;
+    justify-content: end;
+}
+
+
+.containerMiniComen{
+    background: linear-gradient(0deg, rgb(110, 78, 58) 0%, rgb(48, 48, 48) 41%, rgb(36, 36, 36) 100%);
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+
+.miniComenTi img{
+    width: 55px;
+    height: 55px;
+}
+
+
+.telaAvalia{
+    display: flex;
+    text-align: justify;
+}
+
+.comentario_mini{
+    background-color: #202020 !important;
+    color: white !important;
+}
+
+
+.botaoColor{
+    background-color: #ff993a !important;
+    border-color: #ff993a !important;
+}
+
+.botaoColor:hover{
+    background-color: #dd8432 !important;
+    border-color: #dd8432 !important;
+}
+
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    --stroke: #8b8b8b;
+    --fill: #ffc73a;
+  }
+  
+  .rating input {
+    appearance: unset;
+  }
+  
+  .rating label {
+    cursor: pointer;
+  }
+  
+  .rating svg {
+    width: 2rem;
+    height: 2rem;
+    overflow: visible;
+    fill: transparent;
+    stroke: var(--stroke);
+    stroke-linejoin: bevel;
+    stroke-dasharray: 12;
+    animation: idle 4s linear infinite;
+    transition: stroke 0.2s, fill 0.5s;
+  }
+  
+  @keyframes idle {
+    from {
+      stroke-dashoffset: 24;
+    }
+  }
+  
+  .rating label:hover svg {
+    stroke: var(--fill);
+  }
+  
+  .rating input:checked ~ label svg {
+    transition: 0s;
+    animation: idle 4s linear infinite, yippee 0.75s backwards;
+    fill: var(--fill);
+    stroke: var(--fill);
+    stroke-opacity: 0;
+    stroke-dasharray: 0;
+    stroke-linejoin: miter;
+    stroke-width: 8px;
+  }
+  
+  @keyframes yippee {
+    0% {
+      transform: scale(1);
+      fill: var(--fill);
+      fill-opacity: 0;
+      stroke-opacity: 1;
+      stroke: var(--stroke);
+      stroke-dasharray: 10;
+      stroke-width: 1px;
+      stroke-linejoin: bevel;
+    }
+  
+    30% {
+      transform: scale(0);
+      fill: var(--fill);
+      fill-opacity: 0;
+      stroke-opacity: 1;
+      stroke: var(--stroke);
+      stroke-dasharray: 10;
+      stroke-width: 1px;
+      stroke-linejoin: bevel;
+    }
+  
+    30.1% {
+      stroke: var(--fill);
+      stroke-dasharray: 0;
+      stroke-linejoin: miter;
+      stroke-width: 8px;
+    }
+  
+    60% {
+      transform: scale(1.2);
+      fill: var(--fill);
+    }
+  }
+  
+
+
+
+
+@media (max-width: 768px) {
+
+    .depoimentoCard{
+    width: 80%;
+    font-size: 20px;
+    border-radius: 20px;
+    }
+
+    .depoimentoCard i{
+        font-size: 25px;
+    }
+
+    .depoimentoCard h5{
+        font-size: 35px;
+    }
+
+    .depoimentoCard img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .comentario_mini{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .texto_titulo h1{
+        font-size: 40px;
+    }
+
+
+}
+
+

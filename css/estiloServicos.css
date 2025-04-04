@@ -1,0 +1,170 @@
+.containerTitulo{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden
+
+}
+
+.Titulo h1{
+    font-size: 90px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.Titulo{
+    width: 1000px;
+}
+
+.containerTitulo{
+    background: radial-gradient(circle, rgb(253, 231, 196) 0%, rgb(255, 216, 189) 17%, rgb(255, 171, 119) 57%, rgb(251, 124, 30) 83%, rgba(93,47,0,1) 100%);
+}
+
+
+.cabelo{
+    background-image: url("../img/servicos/corte.png");
+    max-width: 100%;
+}
+
+.barba{
+    background-image: url("../img/servicos/Barba.png");
+    max-width: 100%;
+}
+
+.sobrancelha{
+    background-image: url("../img/servicos/sobrancelha.png");
+    max-width: 100%;
+}
+
+.descol{
+    background-image: url("../img/servicos/descoloracao.png");
+    max-width: 100%;
+}
+
+.pintur{
+    background-image: url("../img/servicos/pintura.png");
+    max-width: 100%;
+}
+
+.nasal{
+    background-image: url("../img/servicos/nasal.png");
+    max-width: 100%;
+}
+
+
+.hidrat{
+    background-image: url("../img/servicos/hidratacao.png");
+    max-width: 100%;
+}
+
+.progressi{
+    background-image: url("../img/servicos/progressiva.png");
+    max-width: 100%;
+
+}
+
+.cabeca{
+    height: 250px !important;
+    color: white !important;
+    font-size: 40px !important;
+    font-weight: bold;
+    border: 2px solid #252525 !important;
+}
+
+
+.accordion-button::after{
+    filter: invert(100%) sepia(90%) saturate(500%) hue-rotate(180deg);
+}
+
+.conteudo{
+    background: linear-gradient(180deg, rgba(36,36,36,1) 0%, rgba(31,31,31,1) 57%, rgba(29,15,8,1) 80%, rgba(41,21,11,1) 100%);
+}
+
+.descricao{
+    color: white;
+    font-size: 22px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.preco{
+    color: rgb(255, 137, 27);
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.ilustracao{
+    width: 550px !important;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .Titulo h1{
+        font-size: 50px;
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+
+    .ilustracao{
+        width: 350px !important;
+        height: 250px;
+    }
+
+    .cabelo{
+        background-image: url("../img/servicos/mini/minCorte.png");
+    }
+
+    .barba{
+        background-image: url("../img/servicos/mini/minBarba.png");
+    }
+
+    .sobrancelha{
+        background-image: url("../img/servicos/mini/minSobran.png");
+    }
+
+    .descol{
+        background-image: url("../img/servicos/mini/minDescolo.png");
+    }
+
+    .pintur{
+        background-image: url("../img/servicos/mini/minPintur.png");
+    }
+
+    .nasal{
+        background-image: url("../img/servicos/mini/minNasal.png");
+    }
+
+
+    .hidrat{
+        background-image: url("../img/servicos/mini/minHidrat.png");
+    }
+
+    .progressi{
+        background-image: url("../img/servicos/mini/minProgress.png");
+    }
+
+    .descricao{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .preco{
+        font-size: 25px !important;
+    }
+
+    .cabeca{
+        height: 150px !important;
+    }
+
+    .mostrarServicos button{
+        font-size: 25px !important;
+    }
+
+}
+
+
