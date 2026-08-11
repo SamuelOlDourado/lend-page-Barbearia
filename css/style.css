@@ -880,7 +880,7 @@ textarea {
 
 .wa-float{
   position: fixed;
-  right: 22px;
+  right: 25px;
   bottom: 22px;
   z-index: 1040;
   width: 58px; height: 58px;
